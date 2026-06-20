@@ -1,0 +1,7 @@
+*
+!.gitignore
+!README.md
+!index.html
+!style.css
+!favicon.svg
+!netlify.toml

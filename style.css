@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #000000;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 1.45;
+}
+
+main {
+  width: min(1200px, calc(100% - 64px));
+  margin: 30px auto 56px;
+}
+
+section {
+  margin-bottom: 32px;
+}
+
+.top-section {
+  border: 1px solid #000000;
+  padding: 22px 24px 28px;
+}
+
+h1,
+h2 {
+  margin: 0 0 18px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.15;
+  text-decoration: underline;
+}
+
+p {
+  margin: 0 0 18px;
+}
+
+a {
+  color: #000000;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+a:hover,
+a:focus-visible {
+  color: #5d4037;
+}
+
+.image-section img {
+  display: block;
+  width: min(100%, 520px);
+  height: auto;
+  margin-bottom: 18px;
+}
+
+.trivia-section ol {
+  margin: 0;
+  padding-left: 28px;
+}
+
+.trivia-section li {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 640px) {
+  body {
+    font-size: 18px;
+  }
+
+  main {
+    width: min(100% - 28px, 1200px);
+    margin-top: 18px;
+  }
+
+  .top-section {
+    padding: 18px;
+  }
+
+  h1,
+  h2 {
+    font-size: 32px;
+  }
+}

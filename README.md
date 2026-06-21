@@ -1,14 +1,25 @@
-# Beagle Blog
+# Instagram Clone
 
-A static HTML/CSS Beagle information page built from the assignment brief.
+A responsive Instagram home-feed clone built using semantic HTML and modern CSS.
 
-## Included
+## Features
 
-- `index.html` with title, favicon, stylesheet link, and three required sections
-- `style.css` matching the simple bordered Beagle blog layout
-- `favicon.svg`
-- Correct external links for Wikipedia and Google Images
+- Desktop sidebar and mobile bottom navigation
+- Stories, photo posts, actions, comments, and account suggestions
+- Responsive layouts for desktop, tablet, and phone screens
+- Accessible labels, semantic elements, and reduced-motion support
+- No JavaScript or framework dependencies
 
-## Deploy
+## Run locally
 
-This is a static site. Deploy the repository root to GitHub Pages, Netlify, or Vercel.
+Open `index.html` in a browser, or run a local static server:
+
+```bash
+python3 -m http.server 8000
+```
+
+Then visit `http://localhost:8000`.
+
+## Deployment
+
+The included `netlify.toml` publishes the repository root as a static site.
